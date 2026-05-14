@@ -1,7 +1,24 @@
 p {
     color: red;
-.note {font-size: 20px; }
 }
 
-#green-text { color: green; }
+.note {
+    font-size: 20px;
+    color: black;
+}
 
+#green-text {
+    color: green;
+}
+
+.small {
+    font-size: 15px;
+}
+
+[custom="blue"] {
+    color: blue;
+}
+
+body {
+    text-align: center;
+}
