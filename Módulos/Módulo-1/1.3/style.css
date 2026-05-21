@@ -1,15 +1,3 @@
-/* muda todos os títulos para peso normal */
-h2 {
-    font-weight: normal;
-}
-
-/* define tamanho de todas as imagens */
-img {
-    height: 200px;
-    width: 200px;
-}
-
-/* cores pelos IDs */
 #red {
     color: red;
 }
@@ -18,14 +6,23 @@ img {
     color: blue;
 }
 
-#orange {
-    color: orange;
-}
-
 #green {
     color: green;
 }
 
 #yellow {
     color: yellow;
+}
+
+#orange {
+    color: orange;
+}
+
+.color-title {
+    font-weight: normal;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
